@@ -46,6 +46,7 @@ h3 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
+  margin-left: 20px;
   border-bottom: 2px solid #eee;
 }
 
@@ -141,12 +142,12 @@ textarea {
     position: relative;
     float: left;
     width: 274px;
-    margin: 10px 0 25px;
-    overflow: auto;
+    margin: 10 0  20;
+    overflow: both;
   }
   
   .work:nth-child(even) {
-    margin-right: 20px;
+    margin-left: 20px;
   }
   
   .work img {
@@ -156,18 +157,18 @@ textarea {
     margin-left: 20px;
   }
   
-  .work h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
+  /* .work h3 { */
+    /* position: absolute;
+    width: 50%;
+    padding-bottom: 20px;
+    margin: 20px;
+    margin-bottom: 25px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 30px; 
     color: #fff;
     text-align: center;
     background: #4aaaa5;
-    border-bottom: 0;
+    border-bottom: 0;  */
   }
   
   .auth-image {
