@@ -145,8 +145,8 @@ textarea {
 .work {
     position: relative;
     float: left;
-    width: 274px;
-    overflow: hidden;
+    width: 284px;
+    overflow: auto;
     margin: 20px;
   }
   
@@ -160,7 +160,7 @@ textarea {
     opacity: 0.8;
   }
   
-  .work h3 {
+  /* .work h3 {
     position: absolute;
     width: 100%;
     padding-bottom: 20px;
@@ -170,8 +170,22 @@ textarea {
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
-    z-index: 1; 
-  }
+  } */
+
+.text-block {
+    position: absolute;
+    width: 100%;;
+    bottom: 20px;
+    right: 0;;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 0;
+}
   
 
  #contact-form ul {
