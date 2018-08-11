@@ -30,6 +30,10 @@ h1
     height: 50px;
 }
 
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .header {
     background-color: #ffffff;
@@ -142,41 +146,31 @@ textarea {
     position: relative;
     float: left;
     width: 274px;
-    margin: 10 0  20;
-    overflow: both;
+    overflow: hidden;
+    margin: 20px;
   }
   
   .work:nth-child(even) {
-    margin-left: 20px;
+   margin-left: 20px;
   }
   
   .work img {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
-    margin-left: 20px;
   }
   
-  /* .work h3 { */
-    /* position: absolute;
-    width: 50%;
+  .work h3 {
+    position: absolute;
+    width: 100%;
     padding-bottom: 20px;
-    margin: 20px;
-    margin-bottom: 25px;
     font-weight: 300;
     line-height: 30px; 
     color: #fff;
     text-align: center;
     background: #4aaaa5;
-    border-bottom: 0;  */
-  }
-  
-  .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
+    border-bottom: 0;
+    z-index: 1; 
   }
   
 
